@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Alkalami&family=Fira+Sans:ital,wght@1,300&family=Kanit:wght@300&family=Oswald&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-family: 'Abyssinica SIL', serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 8vh;
+    background: #000;
+    color: aliceblue;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Abyssinica SIL', serif;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.logo img{
+    width: 45px;
+    padding: 0px 9px;
+}
+
+.container{
+    min-height: 80vh;
+    background-color: rgb(245, 204, 218);
+    color: black;
+}
+
+.bottom{
+    position: sticky;
+    height: 13vh;
+    background: #000;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#progressBar{
+    width: 75vw;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.icons i{
+    padding: 0 8px;
+    cursor: pointer;
+}
+
